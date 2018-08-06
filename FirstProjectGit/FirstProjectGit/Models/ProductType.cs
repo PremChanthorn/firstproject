@@ -5,7 +5,9 @@ using System.Web;
 
 namespace FirstProjectGit.Models
 {
-    public class Product_type
+    public class ProductType
     {
+        public int ProdcuttypeId { get; set; }
+        public string ProductTypeName { get; set; }
     }
 }
