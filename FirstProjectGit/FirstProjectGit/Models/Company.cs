@@ -7,5 +7,6 @@ namespace FirstProjectGit.Models
 {
     public class Company
     {
+
     }
 }
