@@ -11,6 +11,7 @@ namespace FirstProjectGit.Controllers
         // GET: Srieng
         public ActionResult Index()
         {
+            ViewBag.Test = "Hello World!";
             return View();
         }
     }
