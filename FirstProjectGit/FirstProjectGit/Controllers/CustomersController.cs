@@ -11,5 +11,10 @@ namespace FirstProjectGit.Controllers
         // GET: Customers
         public ActionResult Index()
     {
-    }
+        return View();
+        }
+        public ActionResult Display()
+        {
+            return View();
+        }
 }
