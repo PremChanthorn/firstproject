@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FirstProjectGit.Models
+namespace FirstProjectGit.Controllers
 {
-    public class Product_type
+    public class Cls_Ek
     {
     }
 }

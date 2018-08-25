@@ -5,8 +5,7 @@ using System.Web;
 
 namespace FirstProjectGit.Models
 {
-    public class Company
+    public class Class2
     {
-        private int id;
     }
 }
