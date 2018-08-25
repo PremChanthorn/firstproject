@@ -1,0 +1,30 @@
+﻿@model List <FirstProjectGit.Models.Employee>
+
+@{
+    ViewBag.Title = "Emplist";
+}
+
+<h1>Employee List</h1>
+
+<table width="70%">
+    <tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>Address</th>
+        <th>Edit</th>
+        <th>Del</th>
+    </tr>
+
+    @foreach (var employee in Model)
+    {
+        <tr>
+            <td>@employee.name</td>
+            <td>@employee.city</td>
+            <td>@employee.address</td>
+            <td>@Html.ActionLink("Edit", "Edit")</td>
+            <td>@Html.ActionLink("Del", "Del")</td>
+        </tr>
+    }
+</table>
+@Html.ActionLink("Back", "");
+
